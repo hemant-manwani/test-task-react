@@ -1,0 +1,39 @@
+.mainNavBar {
+  height: 44px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  border: 1px solid #d8d9d9;
+  border-width: 1px 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.buttonToggleComments {
+  margin: 5px;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #d8d9d9;
+  background: url('./iconBell.png') center center no-repeat;
+  background-size: 40%;
+  background-color: transparent;
+}
+
+.highlighted {
+  background-color: #02b7e2;
+}
+
+.countBubble {
+  top: 2px;
+  right: 2px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  color: white;
+  background-color: coral;
+  border-radius: 50%;
+  font-size: x-small;
+}

@@ -1,0 +1,6 @@
+.Comment {
+  display: flex;
+  margin: 10px;
+  min-height: 64px;
+  border-bottom: 1px dashed #d8d9d9;
+}

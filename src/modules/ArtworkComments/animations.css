@@ -1,0 +1,14 @@
+.enter {
+  top: -320px;
+  transition: top 0.2s ease-in;
+}
+.enter.enterActive {
+  top: 44px;
+}
+.leave {
+  top: 44px;
+  transition: top 0.2s ease-out;
+}
+.leave.leaveActive {
+  top: -320px;
+}

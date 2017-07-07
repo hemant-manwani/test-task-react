@@ -1,0 +1,32 @@
+.CommentDetails {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: #02b7e2;
+}
+
+.buttonMarkSeen {
+  color:#d28851;
+  border: none;
+  background-color: transparent;
+  padding: 0 5px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.time, .separator {
+  color: #8c8c8e;
+}
+
+.time {
+  margin-right: 5px;
+}
+
+.markSeenSection {
+  flex: 1;
+}

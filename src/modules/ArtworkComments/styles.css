@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  padding: 10px;
+  border: 1px solid #d8d9d9;
+  border-top: none;
+  margin: auto;
+  max-height: 320px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  border-top: none;
+  position: absolute;
+  right: 5px;
+  top: 44px;
+  z-index: 9;
+  background-color: white;
+}

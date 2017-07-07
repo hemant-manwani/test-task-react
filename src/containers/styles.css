@@ -1,0 +1,8 @@
+.mainBodyStyle {
+  display: flex;
+  flex-direction: column;
+}
+
+button:focus {
+  outline: 0;
+}
